@@ -1,0 +1,58 @@
+{
+  "kpis": {
+    "Gross merchandise revenue": 19643861.637,
+    "Return value": 716462.57,
+    "Observed net merchandise revenue": 18927399.066999998,
+    "Sales invoices": 39516.0,
+    "Identified customers": 5852.0,
+    "Products sold": 4896.0,
+    "Units sold": 11188061.0,
+    "Returned value / gross sales (%)": 3.6472592977875293,
+    "Returned units / sold units (%)": 4.180706558535925,
+    "Mean order value": 497.11159117825684,
+    "Median order value": 301.23
+  },
+  "findings": [
+    "Gross merchandise revenue is 19,643,861.64; recorded return value is 716,462.57; observed net merchandise revenue is 18,927,399.07 source price units.",
+    "Returned value equals 3.65% of gross sales; returned units equal 4.18% of sold units.",
+    "The top 10% of products (rounded down to 489) generate 62.55% of revenue. Prioritize availability for these products while monitoring reliance on exceptional orders.",
+    "Identified customers account for 86.89% of gross sales. Customer behavior findings apply only to this identifiable subset.",
+    "The two largest cancellation invoices account for 34.29% of return value. Investigate these individually before treating aggregate spikes as broad customer behavior.",
+    "January\u2013November gross revenue changed by 3.00% from 2010 to 2011. Compare the invoice count, customers, units, and order-value distribution together before inferring growth in demand."
+  ],
+  "comparison": {
+    "2010": {
+      "Gross revenue": 8598741.154,
+      "Sales invoices": 18077.0,
+      "Identified customers": 4127.0,
+      "Units sold": 5201456.0,
+      "Mean order value": 475.67301842119815,
+      "Median order value": 300.34999999999997,
+      "Returned value": 221003.33
+    },
+    "2011": {
+      "Gross revenue": 8857090.043,
+      "Sales invoices": 17407.0,
+      "Identified customers": 4168.0,
+      "Units sold": 4891211.0,
+      "Mean order value": 508.8234642959729,
+      "Median order value": 303.68,
+      "Returned value": 284261.94000000006
+    },
+    "Change (%)": {
+      "Gross revenue": 3.0044966393693695,
+      "Sales invoices": -3.706367206948058,
+      "Identified customers": 0.9934577174703252,
+      "Units sold": -5.96457991762307,
+      "Mean order value": 6.9691667576193606,
+      "Median order value": 1.1087065090727544,
+      "Returned value": 28.6233741364893
+    }
+  },
+  "welch_p": 0.009880128580384515,
+  "date_start": "2009-12-01 07:45:00",
+  "date_end": "2011-12-09 12:50:00",
+  "raw_rows": 1044848,
+  "sales_rows": 1003357,
+  "return_rows": 17915
+}
