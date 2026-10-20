@@ -27,4 +27,5 @@ python -m nbconvert --to notebook --execute --inplace retail_analysis.ipynb
 - Currency symbols were removed because currency documentation was not supplied.
 - Unsupported causal explanations were qualified, including product return ratios exceeding 100%.
 
-GitHub publication requires sign-in. The supplied Tableau URL is preserved as a profile link; the specific workbook and its freshness remain unverified.
+Project files were published to https://github.com/mohammadrahmani95/retail-customer-sales-analysis on October 20, 2026. Raw CSV files and the large generated Tableau CSV remain local. The supplied Tableau URL is preserved as a profile link; the specific workbook and its freshness remain unverified.
+
