@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.ipython/
+__pycache__/
+.venv/
+.env
+data/*.csv
+data/*.xlsx
+generated/*.csv
+retail_analysis.html
